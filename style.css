@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #0077b6;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+header img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #023e8a;
+}
+
+header p {
+    color: #555;
+    font-style: italic;
+}
+
+/* Konten Utama */
+article {
+    max-width: 800px;
+    margin: 0 auto 2em;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h1, article h2 {
+    color: #023e8a;
+    margin-bottom: 1em;
+}
+
+article p {
+    margin-bottom: 1em;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000000;
+    color: #fff;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Form Kontak */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f87;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Video embed */
+iframe {
+    display: block;
+    margin: 1.5em auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.sosmed {
+    text-align: center;
+    margin-top: 3em;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.sosmed h1 {
+    color: #023e8a;
+    margin-bottom: 0.5em;
+}
+
+.sosmed ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.sosmed li {
+    margin: 0.5em 0;
+}
+
+.sosmed a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sosmed a:hover {
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+}
